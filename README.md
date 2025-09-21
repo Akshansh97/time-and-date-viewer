@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Time and Date Viewer
 
-First, run the development server:
+A visually appealing **live clock and date viewer** built with **Next.js** and **TailwindCSS**. The project displays the current time and date with gradient-styled text, hover animations, and a background image.
+
+---
+
+## 🌟 Features
+
+- **Live Clock**: Updates every second using `useEffect` and `useState`.
+- **Current Date**: Displays the current date alongside the time.
+- **Gradient Text**: Both the time and date have beautiful gradient colors.
+- **Hover Effects**: Smooth hover animations on time, date, and heading.
+- **Responsive Styling**: Styled using TailwindCSS and custom CSS variables.
+- **Background Image**: Adds a custom background image for a modern look.
+
+---
+
+## 🛠 Technologies Used
+
+- [Next.js](https://nextjs.org/) (App Router, Client Components)
+- [React](https://reactjs.org/) (Hooks: `useState`, `useEffect`)
+- [TailwindCSS](https://tailwindcss.com/) for utility-first styling
+- CSS gradients and transitions for animations
+
+---
+
+## 📂 Project Structure
+
+
+```
+├─ src/
+│  └─ app/
+│     └─ page.tsx        # Main Clock component
+├─ public/
+│  └─ mario.jpg          # Background image
+├─ globals.css           # Custom CSS + Tailwind imports
+├─ package.json
+└─ README.md
+```
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Akshansh97/time-and-date-viewer.git
+cd time-and-date-viewer
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Styling Highlights
 
-## Learn More
+* `.time` → Large, gradient-styled live time text with hover animation.
+* `.date` → Gradient date text with subtle shadow and hover effect.
+* `.heading` → Gradient title with hover lift effect.
+* `body` → Background image with fallback background color.
+* Smooth transitions for hover interactions for a modern UI feel.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚡ Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can view the live demo here: [GitHub Pages / Vercel Deployment]()
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
