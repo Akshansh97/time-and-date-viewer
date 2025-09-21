@@ -40,14 +40,12 @@
   padding: 50px 40px;
   display: inline-block;
 
-  /* Gradient text */
   background: linear-gradient(90deg, #36ccea, #a064a9, #0031a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 
-  /* Keep hover smooth transition */
   transition: all 0.3s ease;
 
 }
@@ -83,13 +81,12 @@ body {
   display: block;
   width: min-content;
 
-      background: linear-gradient(90deg, #0031a3, #a064a9,  #36ccea);
+  background: linear-gradient(90deg, #0031a3, #a064a9, #36ccea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 
-  /* Keep hover smooth transition */
   transition: all 0.3s ease;
 }
 
@@ -116,13 +113,12 @@ body {
   text-align: center;
   transition: all 0.3s ease;
 
-    background: linear-gradient(90deg, #0031a3,  #36ccea, #a064a9);
+  background: linear-gradient(90deg, #0031a3, #36ccea, #a064a9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 
-  /* Keep hover smooth transition */
   transition: all 0.3s ease;
 
 }
